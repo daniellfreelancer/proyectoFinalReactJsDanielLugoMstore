@@ -4,7 +4,8 @@
 * Meat Store es una tienda on-line, con una variedad de productos basados el plantas.
 * Productos con alto contenido proteico y alternativas al momento de comer.
 
-<img src='./assets/imgPortada.png' >
+<img  src='https://prnt.sc/g_NM9hQ1f1-6' with='auto'>
+
 
 ## Comenzando 🚀
 
