@@ -1,0 +1,11 @@
+.imgBadge{
+    display:flex;
+    margin-left: 225px;
+    padding-top: 0px;
+    padding: 10px 5px;
+    justify-items: center;
+}
+
+.hover-shadow {
+    transform: scale(1.1);
+}

@@ -1,0 +1,78 @@
+
+/* 
+Paleta de colores:
+
+Morado #1e0f3f;
+Blanco #ffffff;
+Bone #ece7ca;
+fucsia #f83797;
+turquesa #4df5fd;
+Morado2 #2f1c5c;
+Morado3 #3e2872;
+
+*/
+
+.bg-navbar {
+    background-color: #3e2872;
+}
+
+#navbarSupportedContent ul {
+    margin:0px 100px;
+}
+
+
+#navbarSupportedContent ul li a {
+    display: flex;
+    flex-wrap: wrap;
+    padding:7px 30px;    
+    justify-content: center;
+    border-radius: 5px;
+    margin:0px 20px;
+    font-family: 'Quicksand', sans-serif;
+    font-size:18px;
+    color:#ece7ca;
+
+}
+
+#navbarSupportedContent ul li a:hover {
+    background-color:#4df5fd;
+    color:#2f1c5c;
+
+}
+
+.button-style {
+    font-family: 'Quicksand', sans-serif;
+    font-size:18px;
+    color:#ece7ca;
+}
+
+.item-count {
+    color:#2f1c5c;
+    font-weight: bold;
+    background: #4df5fd;
+    border-radius: 50%;
+    padding: 0px 5px;
+}
+
+.navbar-brand:hover {
+    transform: scale(1.1);
+}
+
+.btnDrop {
+    font-family: 'Quicksand', sans-serif;
+    font-size:18px;
+    color:#ece7ca;
+}
+
+.btnDrop:hover {
+    background-color:#4df5fd;
+    color:#2f1c5c;
+
+
+}
+
+.navDrop {
+    color: #2f1c5c !important;
+}
+
+

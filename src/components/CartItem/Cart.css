@@ -1,0 +1,4 @@
+.detalle-carrito {
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,35 @@
+/* 
+Paleta de colores:
+
+Morado #1e0f3f;
+Blanco #ffffff;
+Bone #ece7ca;
+fucsia #f83797;
+turquesa #4df5fd;
+Morado2 #2f1c5c;
+Morado3 #3e2872;
+
+*/
+
+
+.widget{
+    visibility: visible;
+    opacity: 1;
+    transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+}
+
+.hidden{
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.carrito-widget{
+    color:#ece7ca ;
+}
+
+

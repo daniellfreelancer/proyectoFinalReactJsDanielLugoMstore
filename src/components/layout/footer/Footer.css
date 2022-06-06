@@ -1,0 +1,37 @@
+/* 
+Paleta de colores:
+
+Morado #1e0f3f;
+Blanco #ffffff;
+Bone #ece7ca;
+fucsia #f83797;
+turquesa #4df5fd;
+Morado2 #2f1c5c;
+Morado3 #3e2872;
+
+*/
+
+
+.footer-top {
+    background-color:#2f1c5c ;
+}
+
+.footer-area {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.marcas:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+#footer{
+    color:#ece7ca;
+}
+
+.firma{ 
+    background-color: #4df5fd;
+    color:#1e0f3f ;
+    font-size: 20px;
+}

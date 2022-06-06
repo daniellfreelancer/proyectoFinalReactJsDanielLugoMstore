@@ -1,0 +1,27 @@
+/* 
+Paleta de colores:
+
+Morado #1e0f3f;
+Blanco #ffffff;
+Bone #ece7ca;
+fucsia #f83797;
+turquesa #4df5fd;
+Morado2 #2f1c5c;
+Morado3 #3e2872;
+
+*/
+
+
+
+.stars{
+color: #ffff00;
+font-size: 25px;
+}
+
+.titulo-testimonio {
+    color: #1e0f3f;
+    border-top:1px solid #3e2872;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    padding-top: 50px;
+}
