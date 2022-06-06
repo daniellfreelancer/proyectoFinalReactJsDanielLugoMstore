@@ -41,7 +41,9 @@ _luego de la clonacion, en consola realizar lo siguiente, para instalar las depe
 npm install
 ```
 
-_Finaliza con un ejemplo de cómo obtener datos del sistema o como usarlos para una pequeña demo_
+_Paso a Paso e-commerce_
+
+<img src='./paso-a-paso.gif' with='auto'  >
 
 
 ### Codigo ⌨️
