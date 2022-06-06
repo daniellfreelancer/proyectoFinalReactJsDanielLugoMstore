@@ -21,6 +21,11 @@ Morado3 #3e2872;
     flex-wrap: wrap;
 }
 
+.marcas {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
 .marcas:hover {
     transform: scale(1.1);
     cursor: pointer;

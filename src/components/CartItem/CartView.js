@@ -26,7 +26,7 @@ export const CartView = () => {
                         <div className="d-flex justify-content-end mb-5">
                             <h4> Sub-Total  : ${totalCompra()} </h4>
                         </div>
-                        <div lassName='vaciar-carrito'>
+                        <div className=' text-center '>
                             <Formulario total={totalCompra(carrito)} compra={carrito} className='vaciar-carrito' />
                             <button className="btn btn-danger" onClick={vaciarCarrito}>Vaciar carrito</button>                            
                         </div>
@@ -34,7 +34,7 @@ export const CartView = () => {
 
                 :   <>
                         <div className="text-muted d-flex justify-content-center">
-                            <BsFillCartXFill size={50}/>
+                            <BsFillCartXFill size={60}/>
                         </div>
                         <h4 className="text-center text-muted mt-3">No has agregado productos al carrito</h4>
                         <hr/>

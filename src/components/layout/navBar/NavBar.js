@@ -1,13 +1,12 @@
 import './navBar.css'
-//import { Navbar, Container, Nav} from 'react-bootstrap'
 import { CartWidget } from '../cartWidget/CartWidget'
-import { Link, NavLink } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 import logo2 from './LogoMeatStore.svg';
 
 const NavBar2 = (  ) => {
 
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-navbar">
+    <nav className="navbar navbar-expand-lg navbar-dark bg-navbar container-fluid">
       <div className="container">
         <NavLink to="/">
           <img
@@ -27,14 +26,13 @@ const NavBar2 = (  ) => {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span className="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon icono-hamburguesa"></span>
         </button>
-        <div className="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul className="navbar-nav me-auto mb-3 mb-lg-0">
-            <div class="dropdown">
+        <div className="collapse navbar-collapse barra-navegacion " id="navbarSupportedContent">
+          <ul className="navbar-nav me-auto ">
+            <div className="dropdown">
               <a
-                class=" btn btnDrop dropdown-toggle"
-                href="#"
+                className=" btn btnDrop dropdown-toggle"                
                 role="button"
                 id="dropdownMenuLink"
                 data-bs-toggle="dropdown"
@@ -42,7 +40,7 @@ const NavBar2 = (  ) => {
               >
                 Marcas
               </a>
-              <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
                 <li className="nav-item">
                   <NavLink to="/category/not-co" className="nav-link navDrop">
                     Not-Co

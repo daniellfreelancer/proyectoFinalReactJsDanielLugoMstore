@@ -1,3 +1,18 @@
+
+/* 
+Paleta de colores:
+
+Morado #1e0f3f;
+Blanco #ffffff;
+Bone #ece7ca;
+fucsia #f83797;
+turquesa #4df5fd;
+Morado2 #2f1c5c;
+Morado3 #3e2872;
+
+*/
+
+
 .link-compra{
 margin-top: 25px;
 }
@@ -14,4 +29,19 @@ margin-top: 25px;
 .ingredientes{
     font-weight: bold;
     font-size: 20px;
+}
+
+@media  (max-width:800px) {
+    .card-detalle{        
+        justify-content: center;
+        align-items: center;
+    }
+    .link-compra{
+        margin-left: 0px;
+        padding-left: 50px;
+        } 
+}
+
+marquee{
+color:#1e0f3f ;
 }

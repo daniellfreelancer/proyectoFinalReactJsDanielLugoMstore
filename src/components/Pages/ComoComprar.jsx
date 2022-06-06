@@ -1,9 +1,14 @@
 import React from 'react'
+import pasos from '../../assets/comoComprar2.svg'
 
 const ComoComprar = () => {
   return (
-    <div>ComoComprar</div>
-  )
+    <>
+      <div className=" como-comprar">
+        <img src={pasos} />
+      </div>
+    </>
+  );
 }
 
 export default ComoComprar

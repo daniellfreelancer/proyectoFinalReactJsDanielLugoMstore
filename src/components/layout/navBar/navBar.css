@@ -76,3 +76,21 @@ Morado3 #3e2872;
 }
 
 
+.barra-navegacion {
+display: flex;    
+justify-content:flex-end;
+}
+
+.navbar-toggler {
+display: flex;
+justify-content: flex-end;
+}
+
+@media screen and (max-width: 800px) {
+    .icono-hamburguesa{
+        color: #3e2872;
+    }
+    
+}
+
+

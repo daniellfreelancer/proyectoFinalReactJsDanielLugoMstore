@@ -51,11 +51,11 @@ export const ItemDetail = (props) => {
                     </Card.Text>
                 </Card.Header>
 
-                <Card.Body>
+                <Card.Body className='card-detalle' >
                     <Row>
                     <Col xs={6}>
                         <Image src={imgProduct} height="300" rounded />
-                        <p className='ingredientes' >Ingredientes</p>
+                        <p className='ingredientes'>Ingredientes</p>
                         <Card.Text> {description} </Card.Text>
                         <p>Peso neto: {weight} </p>
                     </Col>
@@ -68,8 +68,7 @@ export const ItemDetail = (props) => {
                         </Card.Text>
                         </div>
                         <Row className="mt-4">
-                        <Col xs={6} >
-
+                        <Col xs={10} >
                             {
                                 !isInCart(id) 
                                     ? <ItemCount  
