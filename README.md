@@ -1,7 +1,10 @@
 # Meat Store e-commerce
 
+
 * Meat Store es una tienda on-line, con una variedad de productos basados el plantas.
 * Productos con alto contenido proteico y alternativas al momento de comer.
+
+<img src='./assets/imgPortada.png' >
 
 ## Comenzando 🚀
 
@@ -43,13 +46,15 @@ _Finaliza con un ejemplo de cómo obtener datos del sistema o como usarlos para 
 ### Codigo ⌨️
 * JSX
 
-##  Styles
-* Fuentes & Paleta de colores
+
 
 ##  Font
 ### Quicksand
 
 * https://fonts.google.com/specimen/Quicksand
+
+##  Styles
+* Paleta de colores
 
 #1e0f3f
 #ffffff 
