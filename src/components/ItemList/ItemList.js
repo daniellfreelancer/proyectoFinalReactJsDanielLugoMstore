@@ -14,7 +14,7 @@ const ItemList = ({items}) => {
             </Alert>
             
             <Container>
-                <h2 className="text-center">Nuestros</h2>
+                <h2 className="text-center">Nuestros Productos</h2>
                 <div className="product-grid products ">                    
                     {items.map((prod) => <Item key={prod.id} {...prod}/>)}                    
                 </div>
